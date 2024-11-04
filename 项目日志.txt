@@ -1,0 +1,39 @@
+
+2024-5-14 项目立项
+2024-5-15 基本确定项目游戏玩法
+2024-5-16 基本确定项目数据结构
+2024-5-20 设计基本页面
+2024-5-21 通过SQLite完成登陆注册模块
+2024-5-22 完善注册登录流程，基本优化服务端代码
+2024-5-23 完成聊天室功能，增加可修改ip功能
+2024-5-24 解决进入聊天室后无法关闭的问题
+2024-5-25 完成游戏界面布局
+2024-5-26 啤酒供应链数据库搭建
+
+2024-5-31 完成基础打包 V0.1.0发布
+2024-6-1 将服务端与客户端融合 V 0.1.1发布
+
+https://www.pijiuyouxi.com/#/
+https://www.sohu.com/a/447649725_100016331
+https://jgkcsz.uestc.edu.cn/info/1049/1391.htm
+https://weixin.bjtu.edu.cn/wap/news.html?id=3994974&mpid=187
+
+
+服务器接口文档
+@app.route('/connect_test', methods=['POST'])
+
+@app.route('/login', methods=['POST'])
+
+@app.route('/create_count', methods=['POST'])
+
+@app.route('/create_chat', methods=['POST'])
+
+@app.route('/get_chat', methods=['POST'])
+
+@app.route('/beer_login', methods=['POST'])
+
+@app.route('/beer_get_group_user', methods=['POST'])
+
+
+
+

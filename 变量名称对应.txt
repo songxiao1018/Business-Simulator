@@ -1,0 +1,43 @@
+周次             WeekID
+
+啤酒市场需求量     BeerDemand
+销量             SalesVolume
+本期欠货量（顾客）  OutstandingOrdersCustomer
+
+期初库存量         InitialStock
+
+批发商送货量          WholesalerDelivery
+累计欠货量（批发商）   AccumulatedOutstandingWholesaler
+订货量（批发商）      OrderQuantityWholesaler
+
+期末库存量           FinalStock
+
+本期利润         WeeklyProfit
+
+
+CREATE TABLE BeerMarket (
+    WeekID INT PRIMARY KEY, -- 周次，作为主键，保证唯一性，使用整型存储
+    BeerDemand INT,          -- 啤酒市场需求量，整型存储
+    SalesVolume INT,         -- 销量，整型存储
+    OutstandingOrdersCustomer INT, -- 本期欠货量（顾客），整型存储
+    InitialStock INT,        -- 期初库存量，整型存储
+    WholesalerDelivery INT,   -- 批发商送货量，整型存储
+    AccumulatedOutstandingWholesaler INT, -- 累计欠货量（批发商），整型存储
+    OrderQuantityWholesaler INT,-- 订货量（批发商），整型存储
+    FinalStock INT,          -- 期末库存量，整型存储
+    WeeklyProfit DECIMAL(10,2) -- 本期利润，使用十进制存储，考虑到可能有小数部分
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://ecs.console.aliyun.com/vnc/index.htm?instanceId=i-uf6cm7naw3r1osql4c4v&regionId=cn-shanghai&instanceName=iZuf6cm7naw3r1osql4c4vZ
